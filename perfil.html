@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>PERFIL</title>
+	<link rel="stylesheet" href="css/csspropietario.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/jquery.timelinr-0.9.7.js"></script>
+    <script>
+        $(function(){
+          $().timelinr({
+            arrowKeys: 'true'
+          })
+        });
+    </script>
+
+	<script src="js/jspropietario.js"></script>
+
+</head>
+
+<body style="background: #F2F7FC">
+
+	<header id="head1" class="fixed-top">
+		<nav class="navigation">
+		<div class="container">
+			<div class="logo-nav-container">
+				<a href="index.html" class="logo">Henry Pérez Monsalve</a>
+			</div>
+			
+			<div id="nave" class="main_list">
+				<ul id="menu" class="show">
+					<li class="lis1"><span></span>
+						<a href="index.html">INCIO</a></li>
+					<li class="lis1"><a href="">PERFIL</a>
+						<ul>
+							<li id="tex1"><a id="texto1" href="#acerca">Acerca de</a></li>
+							<li id="tex1"><a id="texto1" href="#portfolio">Formación</a></li>
+							<li id="tex1"><a id="texto1" href="#linea">Experiencia</a></li>
+						</ul>
+					</li>	
+					<li class="lis1"><a href="trabajo.html">TRABAJO</a></li>
+					<li class="lis1"><a href="contacto.html">CONTACTO</a></li>
+				</ul>
+			</div>
+			<span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+		</nav>
+	</header>
+
+	<main class="main" id="acerca">
+		<header class="row masthead bg-primary text-white text-center">
+            <img class="column masthead-avatar mb-4" src="img/avataaars.svg" alt="" />
+            <div class="column container d-flex align-items-center flex-column">
+                <h1 class="masthead-heading text-uppercase mb-0">Ingeniero de Software</h1>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p class="masthead-subheading font-weight-light mb-0">Ingeniero de software en formación (último semestre), Tecnólogo en Análisis y Diseño de Sistemas de Información y Tecnólogo en Electrónica y Telecomunicaciones, con experiencia en estructuración, ejecución y seguimiento de proyectos productivos rurales de cooperación nacional e internacional en el territorio nacional, experiencia en modelamiento, levantamiento de requerimientos y diseño estructural de sistemas de información  empresariales, experiencia en elaboración técnica de procesos de contratación pública, así como el seguimiento administrativo, operacional y financiero de contratos. Más de 10 años, en manejo de comunidades, organización y desarrollo de procesos sociales y operativos.</p>
+            </div>
+        </header>
+
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0">FORMACIÓN</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <h4>PROFESIONAL </h4>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/universitaria.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <h4>TECNOLOGO </h4>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/tecnologo1.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div ><h4>TECNICO </h4></div>
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/tecnico.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="linea">
+        <h1 class="page-section-heading text-center text-uppercase mb-0">EXPERIENCIA</h1>
+<div class="fle-parent">
+    <div class="input-flex-container">
+        <input id="radio" type="radio" name="timeline-dot" data-description="1910">
+        <div class="dot-info" data-description="1910">
+            <span class="year">2008</span>
+            <span class="label">Contratista Area<br>Operativa PFGB</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1920">
+        <div class="dot-info" data-description="1920">
+            <span class="year">2009</span>
+            <span class="label">Contratista Area<br>Operativa PFGB</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1930" checked>
+        <div class="dot-info" data-description="1930">
+            <span class="year">2010</span>
+            <span class="label">Contratista Area<br>Seguimeinto y Financiera</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1940">
+        <div class="dot-info" data-description="1940">
+            <span class="year">2011</span>
+            <span class="label">Contratista<br>Area Financiera</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1950">
+        <div class="dot-info" data-description="1950">
+            <span class="year">2012</span>
+            <span class="label">Asesor Operativo Grupos<br>Móviles de Erradicación</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1960">
+        <div class="dot-info" data-description="1960">
+            <span class="year">2014</span>
+            <span class="label">Técnico de Apoyo<br>al Convenio COLK53.</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1970">
+        <div class="dot-info" data-description="1970">
+            <span class="year">2016</span>
+            <span class="label">Asistente de Gestión<br>de Información</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1980">
+        <div class="dot-info" data-description="1980">
+            <span class="year">2016</span>
+            <span class="label">Analista De Monitoreo Y<br>Seguimiento Proyecto Construya</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="1990">
+        <div class="dot-info" data-description="1990">
+            <span class="year">2017</span>
+            <span class="label">Profesional de Gestión <br>de la Información D.A.</span>
+        </div>
+        <input id="radio" type="radio" name="timeline-dot" data-description="2000">
+        <div class="dot-info" data-description="2000">
+            <span class="year">2020</span>
+            <span class="label">Tecnólogo Gestión<br>de Información.</span>
+        </div>
+        <div id="timeline-descriptions-wrapper">
+            <p data-description="1910"><strong>Contratista Área Operativa PFGB.<br><i>ACCION SOCIAL PRESIDENCIA DE LA REPUBLICA. Programa contra Cultivos Ilícitos.</i></strong><br>Enero 2008 a Diciembre 2008<br>
+                 <p data-description="1910" style="font-size: 14px;">• Apoyar el diseño de un Sistema de captura de información para las Familias Guardabosques. Sistema en el cual se maneja la información recolectada en campo, para el diseño y orientación de los diferentes planes de trabajo de las comunidades. Paralelamente se desarrolló una herramienta basada en Excel que permitiera manejar dicha información y contemplara la migración de la misma al nuevo sistema de información.<br>• Verificación y control de la información perteneciente al PFGB, para alimentar el sistema de Información del Programa contra Cultivos Ilícitos. Apoyo a la programación y coordinación de los procesos de inscripción de nuevas familias, análisis y realización de preliquidaciones (alistamiento para pagos) de diversos departamentos, manejo y estructuración de bases de datos.<br>• Manejo de información entre las diversas áreas del programa, recepción, análisis y estructuración de la información perteneciente al proyecto Adopte una familia PFGB.</p>
+            
+            <p data-description="1920"><strong>Contratista Área Operativa PFGB.<br><i>ACCION SOCIAL PRESIDENCIA DE LA REPUBLICA. Programa contra Cultivos Ilícitos.</i></strong><br>Enero 2009 a Diciembre 2009<br>
+                 <p data-description="1920" style="font-size: 14px;">• Depuración y verificación del Sistema de Información del Programa contra cultivos Ilícitos (SIPCI), para detectar fallas, inconsistencias y desarrollar soluciones y planes de mejoramiento para fortalecer dicho sistema para un desarrollo más eficiente del manejo de la información.<br>• Realice el seguimiento y puesta en marcha del Sistema de captura de información para las Familias Guardabosques. Sistema en el cual se maneja la información recolectada en campo, para el diseño y orientación de los diferentes planes de trabajo de las comunidades.<br>• Desplazamiento a diversas zonas del territorio nacional para realizar procesos de pagos a familias beneficiarias y depuración de información en el marco del programa Familias Guardabosques.</p>
+            
+            <p data-description="1930"><strong>Contratista Área Seguimiento Y Financiera.<br><i>ACCION SOCIAL PRESIDENCIA DE LA REPUBLICA. Programa contra Cultivos Ilícitos.</i></strong><br>Enero 2010 a Diciembre 2010<br>
+                 <p data-description="1930" style="font-size: 14px;">• Diseño, puesta en marcha y seguimiento de un sistema automatizado para el proceso de facturación a terceros del GME, a través del mecanismo de Fiducia Mercantil. Así como la revisión y verificación de las diferentes cuentas de cobro y/o facturas, acorde a los contratos suscritos en cada caso, remitidas al PCI, para proceso de pagos.<br>• Monitoreo y seguimiento del sistema de captura de información para las familias Guardabosques, el cual permitió establecer la línea base de intervención técnica de las mismas, así como capacitaron sobre el uso del mismo a las entidades encargadas de la alimentación del mismo.<br>• Gestión, análisis, depuración y seguimiento de base de datos de seguimiento a los diferentes proyectos implementados por el Programa de Desarrollo Alternativo. Analizando, depurando y consolidando la información recolectada por diferentes fuentes de nivel central y regional. Realizando el respectivo seguimiento de la misma y estructurando y generando los diferentes informes solicitados por la coordinación del PDA.</p>
+            
+            <p data-description="1940"><strong>Contratista Área Financiera.<br><i>ACCION SOCIAL PRESIDENCIA DE LA REPUBLICA. Programa contra Cultivos Ilícitos.</i></strong><br>Enero 2011 a Diciembre 2011<br>
+                 <p data-description="1940" style="font-size: 14px;">• Gestión, verificación, conciliación Y seguimiento de los procesos de pagos y liquidaciones de los convenios directos y de cooperación, al igual que las actividades financieras ejecutadas por las diferentes estrategias del Programa contra Cultivos Ilícitos.<br>• Análisis, verificación y seguimiento a las actividades financieras de los Grupos Móviles de Erradicación, en especial al proceso de facturación con terceros a través de Fiducia Mercantil. Verificación, seguimiento y liquidación de los contratos a cargo del área. De igual forma viaje a diferentes puntos del territorio nacional para apoyar la ejecución de diferentes procesos a cargo del área financiera.<br>• Realicé el seguimiento técnico, administrativo, financiero y operativo a los contratos de transporte terrestre, empresa de servicios temporales, herramientas, medicamentos entre otros. para la operación de los grupos móviles de erradicación.</p>
+            
+            <p data-description="1950"><strong>Asesor Operativo Grupos Móviles de Erradicación<br><i>EMPLEAMOS SAS. Misional para la Dirección Programas contra Cultivos Ilícitos.</i></strong><br>Enero 2012 a octubre de 2014<br>
+                 <p data-description="1950" style="font-size: 14px;">• Elaboré los términos de referencia y las fichas técnicas para los procesos de contratación de servicios de transporte terrestre de carga y pasajeros, empresa de servicios temporales medicamentos, herramientas equipos GPS entre otros, así como los respectivos soportes financieros (Solicitud de CDP y RP) para la operación de los grupos móviles de erradicación.<br>• Apoyé el proceso de planeación administrativa, operativa y financiera de la operación de los grupos móviles de erradicación.<br>• Realicé el seguimiento técnico, administrativo, financiero y operativo a los contratos de transporte terrestre, empresa de servicios temporales, herramientas, medicamentos entre otros. para la operación de los grupos móviles de erradicación.</p>
+            
+
+            <p data-description="1960"><strong>Técnico de Apoyo al Convenio COLK53.<br><i>UNODC. Agencia Renovación del Territorio – Dirección de Estructuración de Proyectos.</i></strong><br>Octubre 2014 a julio de 2016<br>
+                 <p data-description="1960" style="font-size: 14px;">• Ejecuté la revisión, validación, depuración y consulta de bases de datos de familias beneficiadas a través de los programas desarrollados por la Unidad Administrativa para la Consolidación Territorial – Programas contra Cultivos Ilícitos para la implementación de la estrategia integral y sostenible de reducción de cultivos ilícitos.<br>• Desarrollé el monitoreo y seguimiento de los compromisos de las familias vinculadas a distintas estrategias a través de la consolidación y análisis de los soportes recibidos.<br>•  Realicé el análisis y alistamiento de información para ejecutar el proceso de liquidación y generación de pagos de la contraprestación económica para los beneficiarios de la entidad.</p>
+            
+            <p data-description="1970"><strong>Asistente de Gestión de Información.<br><i>UNODC. Agencia Renovación del Territorio – Dirección de Estructuración de Proyectos.</i></strong><br>Julio 2016 a noviembre de 2017<br>
+                 <p data-description="1970" style="font-size: 14px;">• Realicé el levantamiento de requerimientos, análisis y diseño del sistema de información DAIS, como parte del equipo de enlace técnico de la entidad con el equipo de desarrollo del mismo, se realizaron pruebas de requerimientos del sistema, validación de la lógica de negocio acorde a los procedimientos de operatividad de proyectos al interior de la entidad.<br>• Desarrollé seguimiento técnico, administrativo y financiero a los proyectos (34) que se implementaron a nivel nacional a través del convenio Col K53-UNODC, componente “Ejecución de planes y proyectos para la renovación territorial”.<br>• Diseñé, elaboré e implementé la ficha de consolidación de información de proyectos productivos de fácil manejo por parte de los usuarios de la entidad.</p>
+            
+            <p data-description="1980"><strong>Analista De Monitoreo Y Seguimiento Proyecto Construya.<br><i>Fundación Suiza de Cooperación para el Desarrollo Técnico - SWISSCONTACT.</i></strong><br>Abril 2016 a diciembre 2018<br>
+                 <p data-description="1980" style="font-size: 14px;">• Lideré el proceso de Monitoreo y Medición de Resultados del proyecto Construya Seguro Saludable y Sostenible en Colombia.<br>• Realicé acompañamiento a los consultores externos encargados de realizar la evaluación de impacto del proyecto, analizando y consolidando la información requerida de la línea base, diseñando la encuesta de evaluación, seleccionando grupo muestra, verificando la base de resultados y generando recomendaciones al informe final de cada evaluación.<br>• Elaboré el levantamiento de requerimientos, análisis y diseño del sistema de información CONSTRUYA, siendo el enlace con el equipo de desarrollo del mismo, realización de pruebas de los requerimientos del sistema, validación de la lógica de negocio del sistema acorde a los procedimientos y términos de operatividad de las etapas del proyecto.</p>
+            
+            <p data-description="1990"><strong>Profesional de Gestión de la Información D.A.<br><i>UNODC. Agencia Renovación del Territorio – Dirección de Estructuración de Proyectos.</i></strong><br>Diciembre 2017 a diciembre de 2019<br>
+                 <p data-description="1990" style="font-size: 14px;">• Generé, probé y validé los requerimientos funcionales para el diseño del módulo de Proyectos Productivos del sistema de información Gestión de Oferta de la ART, como parte del equipo técnico, teniendo en cuenta la lógica de negocio de los procedimientos y términos de operatividad de los proyectos al interior de la entidad.<br>• Realicé seguimiento técnico, administrativo y financiero a los proyectos (34) que se implementaron a nivel nacional a través del convenio Col K53-UNODC, componente “Ejecución de planes y proyectos para la renovación territorial”.<br>• Realicé la articulación con el grupo de Uso Eficiente del Suelo y Adecuación de Tierras de la UPRA, para consultar la herramienta para el manejo de información unificada para las entidades relacionadas con la temática de desarrollo rural.</p>
+</p>
+            
+            <p data-description="2000"><strong>Tecnólogo Gestión de Información<br><i>UNODC. Agencia Renovación del Territorio – Dirección de Estructuración de Proyectos.</i></strong><br>Enero 2020 a diciembre de 2020<br>
+                <p data-description="2000" style="font-size: 14px;">•Lideré el diseño y modelamiento del módulo de captura de datos del sistema de información de los Planes Maestros de Estructuración (PME) de las 16 subregiones PDET de la ART. Así mismo se apoyó el proceso de diseño y estructuración del módulo de reportes del aplicativo.<br>•   Realicé jornadas de capacitación en el manejo del aplicativo de captura del PME. Así como el soporte técnico y operativo a los diferentes usuarios del sistema de captura del PME.<br>•   Identifique y clasifique las temáticas de trabajo agrícola, pecuaria, forestal y no agro para las 56 líneas productivas identificadas en los 170 municipios PDET en el marco del PME. Desarrollé el proceso de consolidación, análisis y seguimiento a través de Excel a la ejecución de la estrategia de Plan Maestro de Estructuración en las regiones de Arauca, Catatumbo, Putumayo, Sur de Tolima y Sur de Bolívar.</p>
+</p>
+        </div>
+</div>
+
+</section>
+
+	</main>
+
+	        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+
+	<footer class="footer">
+		<div class="container">
+			<br>
+			<p>© 2021 Todos los derechos reservados, Desarrollo Completo Henry Pérez Monsalve</p>
+		</div>
+	</footer>
+
+ <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">PROFESIONAL</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-0" src="img/logo-uninpahu.svg" alt="" style="margin-bottom: 5px;" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <h4 class="portfolio-modal text-secondary mb-0" style="padding-top: 15px; padding-bottom: 20px;">TIPO DE PROGRAMA: Especialización <br>
+                                        TÍTULO A OBTENER: Especialista en Gerencia de Proyectos Informáticos <br>SNIES: 104237 – Primer semestre en curso</h4>
+                                    <h4 class="portfolio-modal text-secondary mb-0" style="padding-top: 15px; padding-bottom: 20px;">TIPO DE PROGRAMA: Profesional<br>
+                                        TÍTULO A OBTENER: Ingeniero de Software <br>SNIES: 104633 – Noveno semestre en curso</h4>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fa fa-times fa-fw"></i>
+                                        Cerrar Modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">TECNOLOGÍA</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="img/logo-sena-2.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                     <h4 class="portfolio-modal text-secondary mb-0" style="padding-top: 15px; padding-bottom: 20px;">TIPO DE PROGRAMA: Tecnológica <br>
+                                        TÍTULO OBTENIDO: Tecnológo en Análisis y Desarrollo de Sistemas de Información <br>SNIES: 107768 – Abril 2019</h4>
+                                    <img class="img-fluid rounded mb-5" src="img/corpotec.jpg" alt="" />
+                                    <h4 class="portfolio-modal text-secondary mb-0" style="padding-top: 5px; padding-bottom: 20px;">TIPO DE PROGRAMA: Técnica profesional<br>
+                                        TÍTULO OBTENIDO: Técnico Profesional en Electrónica y Telecomunicaciones <br>SNIES: 3161 – Diciembre 2001</h4>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fa fa-times fa-fw"></i>
+                                        Cerrar Modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">TÉCNICA</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="img/logo-colegio-superior-de-telecomunicaciones.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                     <h4 class="portfolio-modal text-secondary mb-0" style="padding-top: 10px; padding-bottom: 20px;">TIPO DE PROGRAMA: Técnica laboral <br>
+                                        TÍTULO OBTENIDO: Técnico en Electrónica y Telecomunicaciones<br>Res. No. 5299 – Diciembre 2000</h4>
+                                    <img class="img-fluid rounded mb-5" src="img/ispa-2jpg.jpg" alt="" />
+                                     <h4 class="portfolio-modal text-secondary mb-0" style="padding-top: 10px; padding-bottom: 20px;">TIPO DE PROGRAMA: Técnica laboral <br>
+                                        TÍTULO OBTENIDO: Técnico en Mecánica Industrial<br>Diciembre 1995</h4>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fa fa-times fa-fw"></i>
+                                        Cerrar Modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
